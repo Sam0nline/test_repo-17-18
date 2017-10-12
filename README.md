@@ -1,2 +1,2 @@
-# test_repo-17-18
-for powershell use and experimentation
+# Programming Module 17/18
+Learning Python and using Powershell
