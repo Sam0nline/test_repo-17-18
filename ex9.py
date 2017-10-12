@@ -33,6 +33,8 @@ high = 10000
 
 guess = (high + low) / 2
 #initialises the first guess for potential ideal portion of savings and reiterates the guess for each search step
+
+decimal_guess = guess / 10000
 #the program will convert guesses as integers during the search then convert back into decimals
 
 epsilon = undefined #£100 leeway for the bisection search algorithm
@@ -40,7 +42,7 @@ epsilon = undefined #£100 leeway for the bisection search algorithm
 portion_saved = guess #most ideal savings from monthly salary will be calculated by a bisection algorithm
 
 while (current_savings < portion_deposit):
-    current_savings = current_savings + ((current_savings * r) + (monthly_salary * guess))
+    current_savings = current_savings + ((current_savings * r) + (monthly_salary * decimal_guess))
     month_counter = month_counter + 1
     if(month_counter % 6 == 0):
         base_annual_salary += base_annual_salary * semi_annual_raise
