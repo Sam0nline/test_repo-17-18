@@ -1,5 +1,3 @@
-#Hi this is ex7.py
-
 annual_salary = int(input("Enter your annual salary: "))
 #input line 1 for the user, written as an integer
 
