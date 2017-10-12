@@ -4,7 +4,7 @@ annual_salary = int(input("Enter your annual salary: "))
 monthly_salary = annual_salary / 12
 #calculates the monthly salary based on the annual salary entered by the user
 
-portion_saved = float(input("Enter the percent of your salary to save, as a decimal: ")) #decimal form i.e. 10% = 0.1
+portion_saved = float(input("Enter the percent of your salary to save, as a decimal: "))
 #input line 2 for the user, asking them how much of their monthly salary to put forward towards saving up to pay the deposit
 
 total_cost = int(input("Enter the cost of your dream home: "))
